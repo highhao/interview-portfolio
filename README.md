@@ -31,3 +31,8 @@ Java 11、Spring Boot 2.7.8；Controller、Service、Repository/DAO、Worker 分
 - [專案介紹](translate-api/README.md) · [系統架構](translate-api/docs/architecture.md) · [請求流程](translate-api/docs/workflow.md)
 
 
+
+## 車險 API 分層
+Java/Spring；聚焦 DIO/DTO 契約、Controller、Service、Worker 與資料存取分層。
+
+- [架構與程式規劃](vehicle-insurance-api/README.md) · [架構圖](vehicle-insurance-api/docs/architecture.md) · [資料流](vehicle-insurance-api/docs/workflow.md)
