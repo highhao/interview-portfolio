@@ -2,10 +2,9 @@
 
 依案例分開閱讀。各 repo 目前皆為 Private，內容以說明文件和圖表為主，不含原始專案程式碼。
 
-## 產險後端
+## 後端：產險 API
 
-- [產險 SaaS 後端模組概觀](https://github.com/highhao/insurance-saas-platform) — 模組分層與實際請求結構。
-- [車險與旅平險 API](https://github.com/highhao/vehicle-travel-insurance-api) — API 分層與端到端業務流程。
+- [車險與旅平險後端 API](https://github.com/highhao/insurance-saas-platform) — 投保流程、程式分層與技術堆疊。
 
 ## Web 應用
 
