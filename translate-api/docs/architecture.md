@@ -1,4 +1,4 @@
-﻿# 翻譯 API 架構
+# 翻譯 API 架構
 
 ![翻譯 API 架構圖](assets/architecture.svg)
 
@@ -13,4 +13,4 @@
 | Security | JWT 身份驗證與權限控制 |
 | Base/AOP | 共用回應、錯誤、日誌與工具 |
 
-Controller、Service、資料存取與外部整合各自分層，使 API 契約、業務規則及基礎設施依賴可以分別維護與測試。
+Controller、Service、資料存取與外部整合各有對應套件。

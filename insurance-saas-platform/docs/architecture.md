@@ -1,4 +1,4 @@
-﻿# 產險 SaaS 平台架構
+# 產險 SaaS 平台架構
 
 ![平台系統架構圖](assets/architecture.svg)
 

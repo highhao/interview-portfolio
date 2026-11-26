@@ -11,7 +11,7 @@ Java/Spring；負責車險與旅平險 API 開發，聚焦 DIO/DTO 契約、Cont
 - [架構與程式規劃](vehicle-insurance-api/README.md) · [架構圖](vehicle-insurance-api/docs/architecture.md) · [資料流](vehicle-insurance-api/docs/workflow.md)
 
 ## 即時通訊與通知平台
-Java/Spring；負責 IM 第二期程式開發，涵蓋會話列表聚合、未讀與已讀狀態、置頂及快取一致性設計。
+Java/Spring；負責程式開發，案例整理訊息列表、未讀／已讀狀態及快取架構。
 
 - [專案介紹](messaging-platform/README.md) · [架構與狀態流程](messaging-platform/docs/architecture.md)
 

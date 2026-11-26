@@ -24,5 +24,6 @@
 
 - Java Server 使用輕量 DDD 與 bounded contexts 組織應用層。
 - 跨層 API 使用 DTO/Enum/錯誤契約，避免 `Map` 作為長期資料模型。
-- Agent、Worker 與 Server 依介面和版本化契約協作，降低多語言元件耦合。
+- Agent、Worker 與 Server 依介面和版本化契約協作。
 - 遊戲／目標知識與平台基礎程式分離，方便獨立演進及替換分析器。
+
