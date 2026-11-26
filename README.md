@@ -1,20 +1,26 @@
-# 技術作品集 | Project Portfolio
+# 技術作品集
 
-依案例分開閱讀。各 repo 目前皆為 Private，內容以說明文件和圖表為主，不含原始專案程式碼。
+按系統類型閱讀；每個案例說明問題情境、主要流程，以及程式架構如何對應需求。
 
-## 後端：產險 API
+## 後端系統
 
-- [車險與旅平險後端 API](https://github.com/highhao/insurance-saas-platform) — 投保流程、程式分層與技術堆疊。
+### [產險後端 API：車險與旅平險](https://github.com/highhao/insurance-saas-platform)
+車險與旅平險各自保有投保流程，並共用請求生命週期；頁面包含險種流程、實際分層與設計取捨。
+
+## 桌面端系統
+
+### [桌面端控制與自動化平台](https://github.com/highhao/desktop-control-platform)
+展示平台授權與本機執行的邊界：Server 管政策與狀態，Agent 控制桌面，Worker 提供影像分析。
 
 ## Web 應用
 
-- [Flask 電商網站](https://github.com/highhao/flask-ecommerce) — 商品、會員、購物車與結帳流程。
+### [Flask 電商網站](https://github.com/highhao/flask-ecommerce)
+展示 App Factory、Blueprint 功能拆分，以及商品到 Session 購物車與結帳確認的流程。
 
-## 資料流程
+## 資料處理
 
-- [試算表專案追蹤同步](https://github.com/highhao/google-sheets-sync) — 欄位更新追蹤與主資料同步。
-- [酒類商品資料擷取](https://github.com/highhao/alcohol-product-scraper) — 靜態／動態來源擷取與統一資料格式。
+### [試算表專案追蹤同步](https://github.com/highhao/google-sheets-sync)
+展示欄位級更新時間判定與主資料同步。
 
-## 桌面端控制
-
-- [桌面端控制與自動化平台](https://github.com/highhao/desktop-control-platform) — Web UI、Server、Agent 與 Worker 的分工。
+### [酒類商品資料擷取](https://github.com/highhao/alcohol-product-scraper)
+展示靜態／動態來源分流、共用擷取介面與統一輸出格式。
