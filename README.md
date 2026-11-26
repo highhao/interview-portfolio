@@ -39,7 +39,7 @@
 - **專案：** [google-sheets-sync](https://github.com/highhao/google-sheets-sync)
 
 ### 酒類商品資料擷取
-- **架構重點：** 靜態／動態網站抓取、抽象介面、統一商品資料格式；語言資訊未確認，故未列出
+- **架構重點：** 靜態／動態網站抓取、抽象介面、統一商品資料格式
 - **專案：** [alcohol-product-scraper](https://github.com/highhao/alcohol-product-scraper)
 
 ### 自動化與訊號分析平台
