@@ -1,13 +1,14 @@
-﻿# 酒類資料擷取案例
+# 酒類商品資料擷取案例
 
-以自動化方式擷取五個網站的酒類商品資料。現有可辨識素材提供了工作情境及操作示範，可將面試說明聚焦於多來源資料擷取、欄位正規化與資料品質管理。
+專案工作情境為從五個網站擷取酒類商品資訊。面試說明聚焦多來源資料擷取的架構分工：來源設定、各來源擷取器、共同輸出邊界，以及錯誤記錄與資料品質檢視。
 
-![資料流程概觀](docs/assets/workflow.svg)
+![多來源資料擷取流程圖](docs/assets/workflow.svg)
 
-## 資料流程
+## 架構與設計重點
 
-不同網站的商品頁面先由來源專屬擷取步驟取得，再轉換為共同欄位格式；整理後的資料可供後續查詢或分析。多來源設計的關鍵在於欄位映射、缺漏值處理、重複資料判定、來源差異及失敗重試。
+- 每個網站的差異由來源專屬擷取步驟承接，避免網站結構差異散落在共用流程。
+- 共用流程負責排程／執行協調、結果彙整與錯誤觀測。
+- 輸出欄位應有明確契約，便於後續匯入、查詢或分析。
+- 多來源資料品質需考慮缺漏欄位、格式差異與重複項目。
 
-目前可檢視素材沒有提供程式碼，因此語言、爬取工具、儲存方式與排程方式不列入技術清單。
-
-English: A multi-source product data collection task covering five websites, with emphasis on normalization and data quality.
+English: A multi-source data collection case focused on separating source-specific extraction from shared orchestration and output contracts.
