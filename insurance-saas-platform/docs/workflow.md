@@ -1,4 +1,4 @@
-﻿# SaaS API 請求流程
+# SaaS API 請求流程
 
 ![平台 API 請求流程圖](assets/workflow.svg)
 

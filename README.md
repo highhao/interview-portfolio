@@ -1,41 +1,49 @@
-# 精選專案
+# 技術作品集 | Project Portfolio
 
-## 產險 SaaS 後端平台
-Java 17、Spring Boot 3.2.5；產險 SaaS API 與保險服務模組，整合身份驗證、資料庫、即時通訊與雲端服務。
+以專案案例呈現技術選型、程式分層與資料流程。各案例僅整理可確認的內容，不包含原始程式碼。
 
-- [專案介紹](insurance-saas-platform/README.md) · [系統架構](insurance-saas-platform/docs/architecture.md) · [API 流程](insurance-saas-platform/docs/workflow.md)
+## 後端與 API
 
-## 車險 API 分層
-Java/Spring；負責車險與旅平險 API 開發，聚焦 DIO/DTO 契約、Controller、Service、Worker 與資料存取分層。
+### 產險 SaaS 後端平台
+Java 17、Spring Boot 3.2.5；涵蓋 API、安全驗證、資料存取與外部服務整合。
 
-- [架構與程式規劃](vehicle-insurance-api/README.md) · [架構圖](vehicle-insurance-api/docs/architecture.md) · [資料流](vehicle-insurance-api/docs/workflow.md)
+[專案說明](insurance-saas-platform/README.md) · [架構](insurance-saas-platform/docs/architecture.md) · [API 流程](insurance-saas-platform/docs/workflow.md)
 
-## 即時通訊與通知平台
-Java/Spring；負責程式開發，案例整理訊息列表、未讀／已讀狀態及快取架構。
+### 車險與旅平險 API
+Java 17、Spring Boot 3.2.5；聚焦 DIO/DTO 契約與 Controller、Service、Worker、Persistence 分層。
 
-- [專案介紹](messaging-platform/README.md) · [架構與狀態流程](messaging-platform/docs/architecture.md)
+[專案說明](vehicle-travel-insurance-api/README.md) · [架構](vehicle-travel-insurance-api/docs/architecture.md) · [資料流](vehicle-travel-insurance-api/docs/workflow.md)
 
-## 翻譯 API
-Java 11、Spring Boot 2.7.8；Controller、Service、Repository/DAO、Worker 分層，含 JWT 與外部服務整合。
+### 翻譯 REST API
+Java 11、Spring Boot 2.7.8；含 JWT、資料存取分層與外部服務整合。
 
-- [專案介紹](translate-api/README.md) · [系統架構](translate-api/docs/architecture.md) · [請求流程](translate-api/docs/workflow.md)
+[專案說明](translation-api/README.md) · [架構](translation-api/docs/architecture.md) · [請求流程](translation-api/docs/workflow.md)
 
-## Shopping Website
-Python 3.11、Flask 3、MySQL；商品瀏覽、會員驗證、購物車及結帳整合。
+### 即時通訊與通知
+Java/Spring；整理訊息列表、未讀／已讀狀態與快取架構。
 
-- [專案介紹](shopping-website/README.md) · [系統架構](shopping-website/docs/architecture.md) · [購物與結帳流程](shopping-website/docs/workflow.md)
+[專案說明](messaging-notification-platform/README.md) · [架構與狀態流程](messaging-notification-platform/docs/architecture.md)
 
-## 專案追蹤試算表自動化
-Google Sheets、Apps Script（JavaScript）；員工分表、欄位級更新追蹤與主資料同步。
+## Web 應用
 
-- [專案介紹與流程圖](google-sheet-workflow/README.md)
+### Flask 電商網站
+Python 3.11、Flask 3、MySQL；商品瀏覽、會員驗證、購物車與結帳頁面。
 
-## 酒類商品資料擷取
-五個網站的酒類商品資訊擷取案例。
+[專案說明](flask-ecommerce/README.md) · [架構](flask-ecommerce/docs/architecture.md) · [購物流程](flask-ecommerce/docs/workflow.md)
 
-- [專案介紹與流程圖](alcohol-crawler/README.md)
+## 自動化與資料處理
 
-## 多目標自動化與訊號分析平台
-Java/Spring、Vue、Python/FastAPI；中央服務、Web UI、本機 Agent 與分析 Worker 分層，涵蓋資料觀測與知識累積流程。
+### 試算表專案追蹤同步
+Google Sheets、Apps Script（JavaScript）；員工分表、欄位更新追蹤與主資料同步。
 
-- [專案介紹](automation-platform/README.md) · [架構](automation-platform/docs/architecture.md) · [執行與知識流程](automation-platform/docs/workflow.md)
+[專案說明與流程圖](google-sheets-sync/README.md)
+
+### 酒類商品資料擷取
+處理靜態與動態網站來源，並將商品資料整理為共用欄位格式。
+
+[專案說明與流程圖](alcohol-product-scraper/README.md)
+
+### 自動化與訊號分析平台
+Java/Spring、Vue、Python/FastAPI；中央服務、Web 介面、本機 Agent 與分析 Worker 分層。
+
+[專案說明](automation-analysis-platform/README.md) · [架構](automation-analysis-platform/docs/architecture.md) · [流程](automation-analysis-platform/docs/workflow.md)
