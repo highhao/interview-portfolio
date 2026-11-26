@@ -6,12 +6,12 @@ Java 17、Spring Boot 3.2.5；產險 SaaS API 與保險服務模組，整合身�
 - [專案介紹](insurance-saas-platform/README.md) · [系統架構](insurance-saas-platform/docs/architecture.md) · [API 流程](insurance-saas-platform/docs/workflow.md)
 
 ## 車險 API 分層
-Java/Spring；聚焦 DIO/DTO 契約、Controller、Service、Worker 與資料存取分層。
+Java/Spring；負責車險與旅平險 API 開發，聚焦 DIO/DTO 契約、Controller、Service、Worker 與資料存取分層。
 
 - [架構與程式規劃](vehicle-insurance-api/README.md) · [架構圖](vehicle-insurance-api/docs/architecture.md) · [資料流](vehicle-insurance-api/docs/workflow.md)
 
 ## 即時通訊與通知平台
-Java/Spring；會話列表聚合、未讀與已讀狀態、置頂及快取一致性設計。
+Java/Spring；負責 IM 第二期程式開發，涵蓋會話列表聚合、未讀與已讀狀態、置頂及快取一致性設計。
 
 - [專案介紹](messaging-platform/README.md) · [架構與狀態流程](messaging-platform/docs/architecture.md)
 

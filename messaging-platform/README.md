@@ -1,6 +1,6 @@
-﻿# 即時通訊與通知平台
+# 即時通訊與通知平台
 
-即時訊息與通知系統，重點在將多種訊息來源整理成一致的會話列表，並維持未讀、已讀、置頂及快取狀態一致。
+負責即時訊息與通知系統的程式開發，重點在將多種訊息來源整理成一致的會話列表，並維持未讀、已讀、置頂及快取狀態一致。
 
 ## 架構與流程
 
@@ -17,4 +17,3 @@
 - **維持快取一致性**：訊息送達或標記已讀後，使相關列表快取失效。
 
 English: A messaging system focused on aggregated conversation lists and consistent unread/read state management.
-

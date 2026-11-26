@@ -1,10 +1,10 @@
-# 車險相關 API 結構
+# 車險與旅平險 API 結構
 
-**語言與框架：** Java 17、Spring Boot 3.2.5。此案例聚焦車險類別與車輛 API 周邊的程式結構：DIO/DTO、Controller、Service、Worker、Mapper/Repository 與 Entity，不描述保險業務規則。
+**開發內容：** 車險與旅平險 API。**語言與框架：** Java 17、Spring Boot 3.2.5。此案例聚焦 DIO/DTO、Controller、Service、Worker、Mapper/Repository 與 Entity 的程式結構，不呈現保險業務規則。
 
 ## 架構圖
 
-![車險相關 API 分層架構](docs/assets/architecture.svg)
+![車險與旅平險 API 分層架構](docs/assets/architecture.svg)
 
 ## 模組分工
 
@@ -20,8 +20,8 @@
 
 ## DIO 與 DTO 的界線
 
-- **DIO** 在 Controller 層代表 API 輸入物件；在外部整合層也用來描述送往下游服務的請求資料。專案以套件位置區分用途。
-- **DTO** 描述 API 回傳資料，並可組合項目清單、分頁資訊及共用回應格式。
+- **DIO** 在 Controller 層代表 API 輸入物件；在外部整合層也描述送往下游服務的請求資料。專案以套件位置區分用途。
+- **DTO** 描述 API 回傳資料，可組合項目清單、分頁資訊及共用回應格式。
 - **Entity/DO** 對應持久化模型；不直接等同於 API 輸入或回應契約。
 - JSON 欄位名稱、序列化註記及 OpenAPI Schema 集中在資料物件上，讓 API 契約可被文件化。
 
@@ -33,8 +33,4 @@
 - **Dependency Injection**：以 Spring 建構子注入明確表達元件依賴。
 - **DTO boundary**：用獨立輸入／輸出型別隔離 API 契約、內部資料模型與下游服務契約。
 
-## 程式範圍說明
-
-程式中可確認有車險類別 enum、車輛管理 API 結構及客戶資料外部整合元件。現有程式未找到明確連結車險類別的專屬 Controller／Service 請求鏈；客戶資料整合元件在程式中的呼叫點屬於另一個服務流程。因此本案例只呈現可驗證的分層與資料契約，不把周邊模組推演成車險流程。
-
-English: A code-structure case study of Java/Spring vehicle-insurance-related APIs, focused on DIO/DTO contracts and layered design.
+English: Developed car and travel insurance APIs, with this case study focused on DIO/DTO contracts and layered Java/Spring design.
