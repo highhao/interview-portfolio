@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker><style>text{font-family:'Segoe UI','Noto Sans TC',sans-serif;fill:#172033}.title{font-size:28px;font-weight:700;fill:#fff}.sub{font-size:15px;fill:#dbeafe}.h{font-size:18px;font-weight:700}.p{font-size:15px}.small{font-size:13px;fill:#475569}.box{rx:14;stroke-width:1.5}.edge{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#a)}</style></defs>
+<rect width="1200" height="520" rx="24" fill="#f5f8fc"/><rect width="1200" height="82" rx="24" fill="#14233b"/><rect y="58" width="1200" height="24" fill="#14233b"/><text x="40" y="45" class="title">產險 SaaS 平台｜API 請求流程</text><text x="40" y="67" class="sub">Controller → Security → Service → Repository / Integration</text>
+<rect x="45" y="170" width="175" height="105" class="box" fill="#e8f1ff" stroke="#8bb7f0"/><text x="132" y="211" text-anchor="middle" class="h">Client</text><text x="132" y="241" text-anchor="middle" class="p">提交 API 請求</text>
+<rect x="285" y="170" width="190" height="105" class="box" fill="#fff" stroke="#94a3b8"/><text x="380" y="211" text-anchor="middle" class="h">Controller</text><text x="380" y="241" text-anchor="middle" class="p">驗證輸入 / DTO</text>
+<rect x="540" y="170" width="190" height="105" class="box" fill="#f5efff" stroke="#b99bea"/><text x="635" y="211" text-anchor="middle" class="h">Security</text><text x="635" y="241" text-anchor="middle" class="p">JWT / 身份權限</text>
+<rect x="795" y="170" width="190" height="105" class="box" fill="#eefbf5" stroke="#7dd3a9"/><text x="890" y="211" text-anchor="middle" class="h">Service</text><text x="890" y="241" text-anchor="middle" class="p">執行業務規則</text>
+<rect x="1030" y="115" width="145" height="90" class="box" fill="#fff7e8" stroke="#f4c66b"/><text x="1102" y="153" text-anchor="middle" class="h">Repository</text><text x="1102" y="180" text-anchor="middle" class="p">資料讀寫</text>
+<rect x="1030" y="300" width="145" height="90" class="box" fill="#fff7e8" stroke="#f4c66b"/><text x="1102" y="338" text-anchor="middle" class="h">Integration</text><text x="1102" y="365" text-anchor="middle" class="p">外部服務</text>
+<path d="M220 220 H285" class="edge"/><path d="M475 220 H540" class="edge"/><path d="M730 220 H795" class="edge"/><path d="M985 195 C1010 195 1010 160 1030 160" class="edge"/><path d="M985 250 C1010 250 1010 345 1030 345" class="edge"/>
+<rect x="285" y="345" width="700" height="85" rx="14" fill="#e9eef5"/><text x="635" y="378" text-anchor="middle" class="h">共用橫切處理</text><text x="635" y="407" text-anchor="middle" class="p">統一錯誤回應 · API Log · 監控與健康檢查</text>
+<text x="45" y="480" class="small">失敗時由統一例外處理轉成一致的 API 回應；資料操作與外部呼叫由 Service 負責協調。</text>
+</svg>
+
+

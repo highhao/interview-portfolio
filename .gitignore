@@ -1,0 +1,22 @@
+﻿# This repository publishes portfolio documentation only.
+*.py
+*.java
+*.class
+*.jar
+*.war
+*.dll
+*.exe
+*.docx
+*.xlsx
+*.xls
+*.pdf
+*.mp4
+*.mov
+*.zip
+*.7z
+*.sql
+.env
+.env.*
+*credential*
+*secret*
+*private*key*
