@@ -1,11 +1,9 @@
 # 技術作品集
 
-各案例獨立整理，說明實際問題、主要流程與架構取捨。公開內容以面試閱讀為目的，不包含完整原始程式碼或機密資料。
+依專案介紹實際情境、個人職責、主要流程與架構設計。
 
-## 專案案例
-
-1. **[產險投保平台｜車險與旅平險](https://github.com/highhao/insurance-saas-platform)** — 險種流程差異、後端服務邊界、保險公司介接與資料庫遷移。
-2. **[多使用者遊戲操作平台](https://github.com/highhao/desktop-control-platform)** — 使用者、Web UI、Java Server、Windows Agent 與 Python Worker 的職責及授權流程。
-3. **[Flask 電商網站](https://github.com/highhao/flask-ecommerce)** — App Factory、Blueprint 模組規劃、購物與 ECPay 付款流程。
-4. **[試算表專案追蹤同步](https://github.com/highhao/google-sheets-sync)** — 欄位更新判定與主資料同步流程。
-5. **[酒類商品資料擷取](https://github.com/highhao/alcohol-product-scraper)** — 靜態／動態來源分流、共用擷取方式與統一資料格式。
+1. **[產險投保平台｜車險與旅平險](https://github.com/highhao/insurance-saas-platform)** — 系統分析、外部保險公司介接與多服務架構。
+2. **[多使用者遊戲操作平台](https://github.com/highhao/desktop-control-platform)** — 平台授權、本機執行及遊戲工具分工。
+3. **[試算表專案追蹤同步](https://github.com/highhao/google-sheets-sync)** — 多人編輯及欄位級資料同步。
+4. **[酒類商品資料擷取](https://github.com/highhao/alcohol-product-scraper)** — 多來源擷取及資料格式統一。
+5. **[Flask 電商網站](https://github.com/highhao/flask-ecommerce)** — 小型電商流程與付款整合。
