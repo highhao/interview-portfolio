@@ -2,8 +2,8 @@
 
 精選系統設計、後端開發與資料處理案例，說明專案情境、個人職責及架構設計。
 
-1. **[產險投保平台｜車險與旅平險](https://github.com/highhao/insurance-saas-platform)** — 系統分析、外部保險公司介接與多服務架構。
-2. **[多使用者遊戲操作平台](https://github.com/highhao/desktop-control-platform)** — 平台授權、本機執行及遊戲工具分工。
-3. **[試算表專案追蹤同步](https://github.com/highhao/google-sheets-sync)** — 多人編輯及欄位級資料同步。
-4. **[酒類商品資料擷取](https://github.com/highhao/alcohol-product-scraper)** — 多來源擷取及資料格式統一。
+1. **[產險投保平台｜車險與旅平險](https://github.com/highhao/insurance-saas-platform)** — 多家 API 整合、投保流程與跨服務設計。
+2. **[多使用者遊戲操作平台](https://github.com/highhao/desktop-control-platform)** — 多使用者授權、跨程序協作與本機任務。
+3. **[試算表專案追蹤同步](https://github.com/highhao/google-sheets-sync)** — 多人資料同步與欄位衝突處理。
+4. **[酒類商品資料擷取](https://github.com/highhao/alcohol-product-scraper)** — 異質來源擷取與欄位標準化。
 5. **[Flask 電商網站](https://github.com/highhao/flask-ecommerce)** — 小型電商流程與付款整合。
